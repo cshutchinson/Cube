@@ -15,9 +15,6 @@ _Figure 1_
 Each X in the figure can be configure with any representation of six face colors. 
 In this example the following hash will be used: 
 
-| Key | Color |
-
-
 -  0 - white  
 -  1 - blue  
 -  2 - green  
