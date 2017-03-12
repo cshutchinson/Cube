@@ -157,7 +157,7 @@ public class DefaultCubeService implements CubeService{
             result.setBack(cube.getTop().substring(8,9) +
                     cube.getBack().substring(1,3) +
                     cube.getTop().substring(5,6) +
-                    cube.getBack().substring(6,8) +
+                    cube.getBack().substring(4,6) +
                     cube.getTop().substring(2,3) +
                     cube.getBack().substring(7,9));
         } else {
