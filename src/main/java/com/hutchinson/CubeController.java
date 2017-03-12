@@ -14,7 +14,7 @@ public class CubeController {
         return new Cube();
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin
     @RequestMapping(value = "/rotate", method = RequestMethod.POST, consumes="application/json",produces="application/json")
     @ResponseBody
     public Cube rotate(@RequestBody CubeRequest cubeRequest) {
@@ -25,7 +25,7 @@ public class CubeController {
         return cubeService.rotate(cube, face, direction);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     @ResponseBody
     public  String test(){
